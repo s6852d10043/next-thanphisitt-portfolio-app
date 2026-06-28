@@ -37,19 +37,19 @@ function GalleryImage({ src, alt, index }: { src: string; alt: string; index: nu
 export default function GalleryPage() {
   // จำลองพาธรูปภาพ 6 รูปตามโจทย์ต้องการ
   const galleryImages = [
-    '/images/coding1.jpg',
-    '/images/coding2.jpg',
-    '/images/coding3.jpg',
-    '/images/coding4.jpg',
-    '/images/coding5.jpg',
-    '/images/coding6.jpg',
+    '/coding1.jpg',
+    '/coding2.jpg',
+    '/coding3.jpg',
+    '/coding4.jpg',
+    '/coding5.jpg',
+    '/coding6.jpg',
   ];
 
   return (
     <div className="space-y-6">
       <div className="border-b border-slate-200 pb-4">
         <h2 className="text-3xl font-bold text-slate-800">
-          Coding Gallery (ภาพกิจกรรม)
+          Coding Gallery
         </h2>
         <p className="text-slate-500 mt-1">แสดงภาพบรรยากาศขณะศึกษาและเขียนโปรแกรมจำนวน 6 ภาพ</p>
       </div>

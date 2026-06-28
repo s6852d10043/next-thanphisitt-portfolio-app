@@ -4,10 +4,10 @@ export default function HomePage() {
   return (
     <div className="text-center py-12 flex flex-col items-center">
       
-      {/* 🖼️ ปรับเป็นแท็ก img ปกติ เพื่อเลี่ยงบั๊ก Image Optimization บน Vercel */}
+      {/* 🖼️ ใช้ img ปกติ พร้อม path จาก public */}
       <div className="w-40 h-40 rounded-full overflow-hidden mb-6 border-4 border-blue-500 shadow-lg bg-slate-100 flex items-center justify-center">
         <img 
-          src="/images/me.jpg" 
+          src="/me.jpg"   // ✅ แก้จาก @/me.jpg เป็น /me.jpg
           alt="Thanphisit Profile"
           className="object-cover w-full h-full"
         />
